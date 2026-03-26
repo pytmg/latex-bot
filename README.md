@@ -51,11 +51,3 @@ Then just run the script.
 Install your bot for your user. I'm not walking through how to do that, [Google](https://google.com/search?q=how+to+make+a+discord+bot) exists for a reason.
 
 Then use the `/latex` command with any valid LaTeX you can come up with. Have fun.
-
----
-
-# Alternatively...
-
-Don't want to host it yourself?
-
-Just install the 24/7 bot using [this](https://discord.com/oauth2/authorize?client_id=1486472152114008264) link!
