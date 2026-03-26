@@ -46,6 +46,7 @@ def latex_to_png(latex: str) -> io.BytesIO:
     return buf
 
 @bot.tree.command(name="latex", description="Create a LaTeX text")
+@discord.app_commands.allowed_installs(guilds=False, users=True)
 async def latexcmd(interaction: discord.Interaction, latex: str):
     try:
         img = latex_to_png(latex)
